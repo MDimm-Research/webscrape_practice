@@ -26,15 +26,16 @@ br.addheaders = [('User-agent', 'Chrome')]
 br.open('https://github.com/login')
 
 # View available forms
-for f in br.forms():
-    print f
+formcount=0
+#for f in br.forms():
+    #print f
 
 # Select the second (index one) form (the first form is a search query box)
-br.select_form(nr=1)
-
+br.select_form(nr=0)
+#print br.form['login']
 # User credentials
-br.form['login'] = 'mylogin'
-br.form['password'] = 'mypass'
+br.form['login'] = 'miketestgit02'
+br.form['password'] = 'qzfreetf59im'
 
 # Login
 br.submit()

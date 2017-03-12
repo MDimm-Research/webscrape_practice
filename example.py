@@ -1,3 +1,4 @@
+#source: http://stackoverflow.com/questions/20039643/how-to-scrape-a-website-that-requires-login-first-with-python
 ##################################### Method 1
 import mechanize
 import cookielib
